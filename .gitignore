@@ -1,0 +1,8 @@
+.env
+node_modules/
+.next/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+storage/uploads/*
+!storage/uploads/.gitkeep

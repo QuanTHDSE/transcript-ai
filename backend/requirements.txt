@@ -1,0 +1,11 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
+celery[redis]==5.4.0
+psycopg[binary]==3.2.6
+SQLAlchemy==2.0.36
+alembic==1.14.1
+python-multipart==0.0.20
+faster-whisper==1.2.1
+# PyAV 19 removed metadata_errors, used by faster-whisper 1.2.1.
+av==18.1.0
+python-docx==1.2.0

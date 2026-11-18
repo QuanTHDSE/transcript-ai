@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme { --color-brand: #635bff; }
+body { margin: 0; background: #f8fafc; color: #0f172a; font-family: Arial, sans-serif; }
+.dark body { background: #080d18; color: #e2e8f0; }
+.dark .card { background: #111827; border-color: #263244; }
+.navlink { border-radius: .65rem; padding: .65rem .8rem; text-align: left; color: #64748b; }
+.navlink:hover { background: #eef2ff; color: #4338ca; }
+.dark .navlink:hover { background: #1e293b; color: #a5b4fc; }
+.card { border: 1px solid #e2e8f0; border-radius: 1rem; background: white; padding: 1.25rem; }
